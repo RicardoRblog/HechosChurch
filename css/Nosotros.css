@@ -1,0 +1,11 @@
+#Nosotros{
+    margin: 0;
+}
+
+
+#Nosotros bloque-integrantes{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+}
+

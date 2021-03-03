@@ -1,0 +1,30 @@
+#Inicio {
+    position: relative;
+    background-image: url(../img/lifeband1.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+
+.contenedor-inicio{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+
+.contenedor-inicio h1{
+    font-family: 'Saira Stencil One', cursive;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}

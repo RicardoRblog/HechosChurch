@@ -1,0 +1,57 @@
+@import url(Nosotros.css);
+@import url(inicio.css);
+@import url(Musica.css);
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+img{
+    width: 100%;
+    
+}
+ 
+body{
+     font-family: "Roboto";
+    
+}
+
+header {
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: black;
+    
+}
+
+header .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header .logo{
+    width: 100px;
+    
+}
+
+header .contenedor nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    align-items: center;
+
+}
+
+
+header .contenedor .hamb{
+    font-size: 30px;
+    
+}

@@ -1,0 +1,30 @@
+#Musica .contenedor-videos{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+    
+    
+}
+
+
+#Musica iframe{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+    
+}
+
+
+
+
+@media(min-width:700px){
+    #Musica iframe{
+        align-content: center;
+        width: 33.33%;
+        
+    }
+    
+    
+}
