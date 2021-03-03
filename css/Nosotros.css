@@ -3,9 +3,36 @@
 }
 
 
-#Nosotros bloque-integrantes{
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
+
+
+
+#Nosotros .contenedor-integrantes{
+    position: relative;
+    
 }
 
+.contenedor-integrantes{
+    width: 100%;
+   
+    
+}
+
+.contenedor-integrantes img{
+    width: 100%;
+    
+    
+}
+
+
+
+
+
+@media (min-width:700px){
+    .contenedor-integrantes{
+    display: flex;
+    
+        
+}
+    
+    
+}
