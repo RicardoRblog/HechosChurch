@@ -1,0 +1,42 @@
+#Musica {
+    position: relative;
+    
+    
+    
+}
+
+
+#Musica .contenedor-videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 0;
+    
+   
+}
+
+#Musica iframe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0;
+    
+    
+}
+
+
+
+
+
+@media(min-width:700px){
+    #Musica iframe{
+        
+        align-content: center;
+        width: 33%;
+        
+    }
+    
+    
+}

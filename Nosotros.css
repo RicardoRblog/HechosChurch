@@ -1,0 +1,41 @@
+#Nosotros{
+    margin: 0;
+}
+
+
+
+
+
+#Nosotros .contenedor-integrantes{
+    position: relative;
+   
+   
+    
+}
+
+.contenedor-integrantes{
+    width: 100%;
+    padding: 5px 5px;
+    
+    
+}
+
+.contenedor-integrantes img{
+    width: 100%;
+    
+    
+}
+
+
+
+
+
+@media (min-width:700px){
+    .contenedor-integrantes{
+    display: flex;
+    
+        
+}
+    
+    
+}
