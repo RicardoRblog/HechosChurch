@@ -1,41 +1,83 @@
-#Nosotros{
-    margin: 0;
-}
-
-
-
-
-
-#Nosotros .contenedor-integrantes{
+#Nosotros {
     position: relative;
-   
-   
-    
-}
-
-.contenedor-integrantes{
     width: 100%;
-    padding: 5px 5px;
-    
+    background: black;
     
 }
 
-.contenedor-integrantes img{
-    width: 100%;
-    
-    
+#Nosotros .contenedor-nosotros{
+   
 }
 
 
 
-
-
-@media (min-width:700px){
-    .contenedor-integrantes{
-    display: flex;
+#Nosotros h3{
+    text-align: center;
+    height: 200px;
+    text-transform: uppercase;
+    font-size: 50px;
+    background-image: url(../img/lifeband1.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
+    color: white;
+    padding: 10% 0;
+    overflow: hidden;
     
         
 }
-    
+
+#Nosotros article{
+   position: relative;
+}
+
+#Nosotros h2{
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 0 20px;
+    width: 80%;
+}
+
+#Nosotros p{
+    position: absolute;
+    text-align: center;
+    color: black;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.33);
+    border-radius: 20px;
+    padding: 0 20px;
+    width: 90%;
+    font-size: 20px;
     
 }
+
+
+#Nosotros img{
+    width: 100%;
+    filter: grayscale(1);
+    
+}
+
+
+#Nosotros img:hover{
+    
+    filter: grayscale(0);
+    
+}
+
+
+
+
+#Nosotros article{
+    margin: 0;
+    
+}
+
+
