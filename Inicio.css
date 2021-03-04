@@ -1,0 +1,47 @@
+#Inicio {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+    background-color: black;
+    background-image:url(../img/envivo.jpg);
+    
+    
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+    filter: grayscale(1);
+    
+    
+}
+
+
+
+
+.contenedor-inicio{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+
+.contenedor-inicio h1{
+    font-family: 'Saira Stencil One', cursive;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+
+.contenedor-inicio h2{
+    
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 80px;
+    
+}
