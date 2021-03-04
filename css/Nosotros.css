@@ -8,12 +8,15 @@
 
 #Nosotros .contenedor-integrantes{
     position: relative;
+   
+   
     
 }
 
 .contenedor-integrantes{
     width: 100%;
-   
+    padding: 5px 5px;
+    
     
 }
 

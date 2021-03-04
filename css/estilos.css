@@ -8,11 +8,6 @@
     
 }
 
-img{
-    width: 100%;
-    
-}
- 
 body{
      font-family: "Roboto";
     
@@ -24,10 +19,17 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 10;
+    z-index: 1;
     background-color: black;
     
+    
 }
+
+
+header .menu{
+   
+}
+
 
 header .contenedor{
     display: flex;
@@ -41,16 +43,51 @@ header .logo{
     
 }
 
-header .contenedor nav a{
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    align-items: center;
 
+header .contenedor nav a{
+    display: none;
+    
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    
+    
 }
 
 
 header .contenedor .hamb{
-    font-size: 30px;
+    font-size: 40px;
+    display: block;
+    color: white;
+    top: 0;
+    padding: 0 10px;
+    
+}
+
+
+
+@media (min-width:700px){
+    header .contenedor{
+    margin: 0 20px;
+    justify-content:space-around; 
+    
+}
+    
+    header .contenedor nav a{
+    display: block;
+    padding: 0 10px;
+    font-size: 20px;
+    color: white;
+    margin: 0 20px;
+    
+        
+    }
+    
+    header .contenedor .hamb{
+        display: none;
+    }
+    
+    
+    
     
 }
