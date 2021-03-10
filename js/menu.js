@@ -21,7 +21,7 @@ jQuery("header .contenedor nav a").click(function(){
     var dev = jQuery(this).attr("href");
     
     jQuery("html").animate({
-        "scrollTop": jQuery(dev).offset().top -76
+        "scrollTop": jQuery(dev).offset().top -100
     
     
     })
