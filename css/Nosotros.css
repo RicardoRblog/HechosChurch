@@ -6,7 +6,8 @@
 }
 
 #Nosotros .contenedor-nosotros{
-   
+   display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -15,10 +16,12 @@
     text-align: center;
     height: 200px;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 40px;
+    background-color: gray;
     background-image: url(../img/lifeband1.jpg);
     background-attachment: fixed;
-    background-position: bottom;
+    background-position: bottom ;
+    
     color: white;
     padding: 10% 0;
     overflow: hidden;
@@ -27,33 +30,36 @@
 }
 
 #Nosotros article{
-   position: relative;
+    position: relative;
+    padding: 20px 0;
+    justify-content: center;
+    text-align: center;
+    border:  1px solid rgba(128, 128, 128, 0.35);
+   
 }
 
 #Nosotros h2{
-    position: absolute;
-    text-align: center;
+    
+    
     color: white;
     top: 70%;
     left: 50%;
-    transform: translateX(-50%);
-    font-size: 30px;
+    
+    font-size: 40px;
     border-radius: 20px;
-    padding: 0 20px;
-    width: 80%;
+    padding: 0 10px;
+    
 }
 
 #Nosotros p{
-    position: absolute;
-    text-align: center;
-    color: black;
+        
+    color: white;
     top: 80%;
     left: 50%;
-    transform: translateX(-50%);
-    background: rgba(255, 255, 255, 0.33);
+   
     border-radius: 20px;
-    padding: 0 20px;
-    width: 90%;
+    padding: 0px 5px;
+    
     font-size: 20px;
     
 }
@@ -80,4 +86,40 @@
     
 }
 
+
+
+
+@media (min-width:700px){
+    
+    #Nosotros article{
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    #Nosotros article img{
+        width: 50%
+        
+    }
+    
+    #Nosotros h2{
+   
+    align-content: center;
+    color: white;
+    font-size: 80px;
+    padding: 0 20PX;
+    
+    
+}
+    #Nosotros p{
+        
+    
+    padding: 20px 20px;
+    
+    font-size: 30px;
+    
+}
+    
+    
+}
 

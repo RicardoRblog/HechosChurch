@@ -15,6 +15,7 @@ body{
 }
 
 header {
+    
     padding: 0;
     position: fixed;
     top: -20px;
@@ -30,44 +31,76 @@ header {
 
 
 
-header .contenedor{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header .contenedor {
+    width: 100%;
+   
     
 }
 
-header .logo{
-    width: 80px;
+header .contenedor .hamb{
+    font-size: 40px;
+    color: white;
+    float: right;
+    margin: 25px 10px;
+    
+}
+
+
+
+header .contenedor nav{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.4s ease;
+    transform: translateX(100%);
+     
+    
+}
+
+header .contenedor nav.open{
+    transform: translateX(0%);
     
 }
 
 
 header .contenedor nav a{
-    display: none;
-    
     color: black;
+    font-size: 24px;
+    font-weight: 500;
     text-decoration: none;
+    padding: 35px 10px;
+    margin: 10px 0;
+    
+    
+    
+}
+
+
+header .logo{
+    position: relative;
+    width: 80px;
     align-items: center;
     
-    
 }
 
 
-header .contenedor .hamb{
-    font-size: 40px;
-    display: block;
-    color: white;
-    top: 0;
-    padding: 0 10px;
-    
-}
+
 
 
 
 
 
 @media (min-width:700px){
+        
     header .contenedor{
     position: relative;
     margin: 0 20px;
@@ -76,12 +109,14 @@ header .contenedor .hamb{
 }
     
     header .contenedor nav a{
-    display: block;
+    display:inline-flex;
+   
     padding: 0 10px;
     font-size: 20px;
     color: white;
     margin: 0 20px;
-    
+    background: red;
+    transform: translateX(-100%);
         
     }
     
